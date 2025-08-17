@@ -1,12 +1,28 @@
-# React + Vite
+## 📌 Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### ✅ Task 1: Sign-Up Page
+- Fields: Full Name, Email Address, Password  
+- Validations:
+  - All fields are required
+  - Email must be valid
+  - Password must be at least 6 characters
+- Styled with Tailwind CSS (card, shadow, rounded corners)
 
-Currently, two official plugins are available:
+### ✅ Task 2: Navigation Bar
+- Responsive Navbar with links: Home, About, Contact  
+- Desktop: inline links  
+- Mobile: hamburger menu (☰) toggle  
+- Blue background with white text
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ✅ Task 3: `<UserCard />` Component
+- Accepts `name` and `email` as props  
+- Displays user details in a styled card (border, shadow, rounded corners)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React** (with Vite for fast build)
+- **Tailwind CSS** (for styling)
+- **JavaScript (ES6+)**
+
+---
